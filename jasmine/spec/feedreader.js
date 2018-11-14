@@ -87,7 +87,7 @@ $(function() {
          })
 
          it('completes work', function(){
-           const feed = document.querySelectorAll('.feed .entry');
+           const feeds = document.querySelectorAll('.feed .entry');
            feeds.forEach(feed => {
 		    expect(feed.innerText.length > 0).toBe(true);
 	       })
